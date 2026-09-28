@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=pollinations_krita
+X-Python-2-Versions=2
+X-Krita-Manual=Manual.html
+Name=Pollinations
+Comment=Generate and edit images with Pollinations, paying with your own Pollen

@@ -1,0 +1,24 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Pollinations for Krita</title></head>
+<body>
+<h1>Pollinations for Krita</h1>
+<p>Generate and edit images with Pollinations, paying with your own Pollen.</p>
+<h2>Connect</h2>
+<p>Click <strong>Connect</strong>, paste your publishable <code>pk_</code> App Key
+from enter.pollinations.ai, and approve the sign-in in your browser. The token is
+stored privately on your machine (owner-only file on Linux/macOS, DPAPI on
+Windows) and never inside your document. Alternatively set the
+<code>POLLINATIONS_API_KEY</code> environment variable before starting Krita.</p>
+<h2>Generate</h2>
+<p>Choose a model from the live catalog, write a prompt, and click
+<strong>Generate to a new layer</strong>. With an active selection the image is
+placed at the selection; otherwise it covers the canvas.</p>
+<h2>Edit</h2>
+<p>Select the layer (optionally with a selection bounding the area), write what
+should change, pick an image-input model, and click <strong>Edit onto a new
+layer</strong>. The active layer/selection is sent to the edits endpoint and the
+result is added as a new layer above; the source is never modified.</p>
+<h2>Notes</h2>
+<p>Documents should be 8-bit RGBA for layer import. Errors (expired sign-in, low
+Pollen balance with a top-up hint, network failures) appear in the dock status.</p>
+</body></html>
